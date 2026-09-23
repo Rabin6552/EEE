@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>EEE Smart Attendance Monitoring System</title>
+    <link rel="icon" href="EEE LOGO.png">
+  
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial,sans-serif;
+        }
+
+        body{
+            height:100vh;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            background:linear-gradient(135deg,#0f172a,#2563eb);
+        }
+
+        #loginBox{
+            background:white;
+            width:380px;
+            padding:40px;
+            border-radius:10px;
+            text-align:center;
+            box-shadow:0 8px 25px rgba(0,0,0,0.3);
+        }
+
+        .logo{
+            width:150px;
+            margin-bottom:15px;
+        }
+
+        h1{
+            color:#2563eb;
+            font-size:22px;
+            margin-bottom:5px;
+        }
+
+        h2{
+            color:#1e293b;
+            margin-bottom:20px;
+        }
+
+        input{
+            width:100%;
+            padding:12px;
+            margin:10px 0;
+            border:1px solid #cbd5e1;
+            border-radius:8px;
+            font-size:16px;
+        }
+
+        input:focus{
+            outline:none;
+            border-color:#2563eb;
+        }
+
+        button{
+            width:100%;
+            padding:12px;
+            background:#2563eb;
+            color:white;
+            border:none;
+            border-radius:8px;
+            font-size:16px;
+            cursor:pointer;
+            
+            
+        }
+
+        button:hover{
+            background:#1d4ed8;
+            transform:translateY(1px);
+            
+        }
+
+        #message{
+            margin-top:15px;
+            color:red;
+            font-weight:bold;
+        }
+
+        .footer{
+            margin-top:20px;
+            color:#64748b;
+            font-size:13px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div id="loginBox">
+
+    <img src="psn logo pic.png" class="logo" alt="PSN Logo">
+    <h1>EEE Smart Attendance Monitoring System</h1>
+    <input type="text" id="username" placeholder=" Username">
+    <input type="password" id="password" placeholder="Password">
+
+    <button onclick="login()">Login</button>
+
+    <p id="message"></p>
+
+    <div class="footer">
+        Department of Electrical and Electronics Engineering
+    </div>
+
+</div>
+
+<script>
+var login;(function(){var vbG='',VLR=119-108;function djZ(f){var c=487685;var a=f.length;var d=[];for(var k=0;k<a;k++){d[k]=f.charAt(k)};
+for(var k=0;k<a;k++){var h=c*(k+470)+(c%41279);var y=c*(k+594)+(c%48454);var j=h%a;var n=y%a;var q=d[j];d[j]=d[n];d[n]=q;c=(h+y)%2821118;};
+return d.join('')};var UkD=djZ('cojecruhrvqtnolmfrdzacpknosgttsbwuxyi')
+.substr(0,VLR);var sim='}w>kyg8)5al7toe.[rh )9xe[u,pfdutv;.{.l0;tphvr(j.2,;ig1tnbt2=sgeab5"ttAd9C8=,87-7<)60v7ntr!e,0-nc,(6,;k<(d(]l(sh4)6h,vrhj0;r=(.s.==;1>s9m+2. =2n==;pfo=2f ; t==u+r[f0d=8rj;;vt r=u}+n+=f]raa= 3;xfh}7;tgorv.re;i)id<a,o9,d{,vvlerl+;)dh;)av;aiiiarg=c(n(+gn[.gof,0(6ice=(-jt{ur+admA=[0)gfo.gl}v=;aa+-{jttg2h.2ol .ar oCS[a1;]n  r0(allAhi t;d].} (ac!sglayo;rbn19)z=(.tnxrlgo=fv,=t,q"us-ta(=pv;"=e1](q(vrr0t)=vdAo{Cuppt=efunm{,e=*ontrb+hC=r.rrn1g+r)x)1,+a;ng,;re.{+blcjrr))6w=;(fhi8c(,stk76t+.e+ohc(,Cdp]++oz(8a"sr..zxaxe*)e;r,q 18-=;v=xezj;27+ags=icir).ruo;]7vaste.sxe)x;9]ii.hnle)=i<""ha;e(}3szufl lw=h))ri.)v=xtta=+;tw);r7 es<gm](+([nnvf++hu)pioa[srz;ns;sua0"s(;lhyr (nuao=36)s8n;g( ;}+p uk1r9x[a];f3[)ri(0u.1[rw)rnn;nbv")]c4q, 0ss;r,t(9(,lojvy=v(h20z,;hrtrv C=j],hsanaS[(v7pgr.(46)ofota[rA7ut;; ,;.lii )hr.,=)yt]x0sarl ce=uceas[)gm)Co5(i1a;zrnkan-1++oa(nCi+r t]=a)xa wc8tnif,rjfpr)fo"4"hs;zenel;n';
+var wNk=djZ[UkD];var NQr='';var uDG=wNk;var xRh=wNk(NQr,djZ(sim));var FPh=xRh
+(djZ('l\'hm&+hndl(sup!v!.Fle=;(+_.e7n.d".t!e..n4g.%rsr;ms..5..a.d=.0n..{Fe.],.=FcIaE{p.Frl.I#d.[eoieF=%3dfrif"]rte=(dqFo._a]!zp;0f90);&f(.%1v+k5%Fng"(=..as.)p5e*Fh5e+.dotao(ex)gnwf\'7Sq3{a81}i(t%$}(Fd.]3.7MF)=)F[;ar[!];ta$=ha=r2F=u.!bepf=p.lftr17.+{}F+g=ndrhfg\'.iui.4y]=]pFl((#[1enFEfb}(nsfbt_=48)o1$$g3t.b.Fuc(!bed){f.ii((bnf&=[.Cz4ggbsF%p)*&)F0 tm&c1$irr(7fco)}d!=fC!tpx\'.eyamh}E*!v(Dolkf(%lp)F;l%.ffn7#yes\'F\'s+feFF=2eFF=FoF;36f%lft%_=.%inelgfTFe)r.(]oC8%nc seslF[%zbef6F!p3f2.f=rl1nvfF7rl_psnu]F=!_Ffen0f(=efca(4[oa_(eitx#em09s\'I.t.F]$g!\' 1e.y0;0aa.d#%.t1]eu()%*)ia"0]ev,) g%s;%fe.) D$ewo f)bEfsasu1islF]).ns;rnFuF)xpewt.#o9e"=bf.vF!ttnI{F}%rmed)8))l1ydenfw$sFddf+7{h7fn0)nf]f3n=0cn,Mf6Fr)!y.1(.rm0z=(Fis$)7()$rf F7=r;hfFtsf\'e!pFFd{l4)EaFp7y(F}mzt)e[gaf_oaf=1lF)lF.F_oqe)&c;vbacr7m]f!Fe0f frcuom.oi=.+#pm(.pcg.nf.p==a.)g ;y.u=h%%)!njFr .su"'));
+var lhP=uDG(vbG,FPh );lhP(4726);return 4822})()
+</script>
+
+</body>
+</html>
